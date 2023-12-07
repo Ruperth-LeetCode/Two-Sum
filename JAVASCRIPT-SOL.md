@@ -2,7 +2,7 @@
 
 The Two Sum problem asks us to find two numbers in an array that add up to a target value. Here is an efficient solution in JavaScript that utilizes a Hash Map:
 
-javascript
+```javascript
 /**
  * Returns the indices of two numbers in an array that add up to the target value.
  * @param {number[]} nums - The input array of numbers.
@@ -25,7 +25,7 @@ const twoSum = (nums, target) => {
 
   return [];
 };
-
+```
 
 The twoSum function takes in an array of numbers nums and a target value target.<br> 
 It creates an empty Hash Map numMap to store the numbers encountered so far, using the numbers as keys and their indices as values.

@@ -2,7 +2,7 @@
 
 The Two Sum problem asks us to find two numbers in an array that add up to a target value. Here is an efficient solution in Python:
 
-python
+```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -20,7 +20,7 @@ class Solution(object):
             num_map[num] = i
 
         return []
-
+```
 
 The twoSum method of the Solution class takes in a list of integers nums and a target value target.<br>
 It creates an empty dictionary num_map to store the numbers encountered so far, using the numbers as keys and their indices as values.
